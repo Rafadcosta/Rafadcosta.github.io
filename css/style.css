@@ -40,6 +40,10 @@ nav.navbar{
     }
 }
 
+#s1 h1 {
+    font-weight: 700;
+}
+
 .home_right_img img{
     max-width: 80%;
 }
