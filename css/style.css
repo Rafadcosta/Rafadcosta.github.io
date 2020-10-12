@@ -154,7 +154,7 @@ a:hover{
 
 /* ----------- animação texto ----------- */
 
-#s1 h6::after{
+#s1 h1::after{
     content: '|';
     margin-left: 5px;
     opacity: 1;
