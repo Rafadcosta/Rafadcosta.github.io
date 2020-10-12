@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;    
+    padding: 0;
+    margin: 0;    
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.05),
+                0 4px 8px 0 rgba(0,0,0,0.05);
+
+}
+
+/* ----------- barra navegação ----------- */
+nav.navbar{
+    background: rgba(255,255,255,1) !important;
+}
+@media (max-width: 768px){
+    .fixed-top{
+        position: relative;
+    }    
+}
+
+
+/* ----------- backgrounds ----------- */
+#s1, #s3, footer{
+    background: url('../img/bg1.png') center center;
+}
+
+/* ----------- seção 1 - principal ----------- */
+#s1{
+    padding-top: 150px;
+    min-height: 90vh;
+} @media (max-width: 992px){
+    #s1{
+        padding-top: 120px;
+    }
+} @media (max-width: 768px){
+    #s1{
+        padding-top: 40px;
+    }
+}
+
+.home_right_img img{
+    max-width: 80%;
+}
+
+.p-img {
+    text-align: left;
+} @media (max-width: 992px){
+    .p-img {
+        text-align: center !important;
+    }
+}
+
+/* ----------- seção 2 - sobre ----------- */
+#s2 h2{
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+#s2 p +p {    
+    margin-bottom: 45px;
+}
+
+#s2 a{
+    
+    padding: 10px 16px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+}
+
+
+/* ----------- seção 3 -portfolio ----------- */
+.icones-portfolio{
+    margin-bottom: 10px;
+}
+
+.icone img{
+    height: 100%;
+    max-height: 400px;
+}
+
+.form-group button, .form-group button:active{
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+} 
+
+#s3 h5{
+    text-transform: uppercase;
+    background-color: #fff;	
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+
+
+/* ----------- form contato ----------- */
+.email{
+	background-color: transparent;
+	height: 60px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	border-radius: 30px;
+	padding: 0 25px 0 25px;	
+    text-transform: uppercase;	
+    border: 2px solid #007bff;
+}
+
+.msg{
+	background-color: transparent;
+	min-height: 250px;
+	max-height: 160px;
+	min-width: 100%;
+	max-width: 100%;
+	font-size: 16px;
+	border-radius: 30px;
+	padding: 15px 25px 0 25px;
+	margin-bottom: 25px;
+	text-transform: uppercase;	
+    resize: none;
+    border: 2px solid #007bff;
+}
+
+.botao{
+    border-radius: 30px;
+    height: 60px;
+    width: 140px;
+    border: 2px solid #007bff;
+    transition: transform 600ms;
+} .botao:hover{
+    transform: scale(1.1);
+}
+
+/* ----------- footer ----------- */
+footer a{
+    color: #fff;
+    margin-right: 20px;
+}
+
+footer a:hover{
+    color: #007bff;    
+}
+
+a:hover{
+    text-decoration: none;
+}
