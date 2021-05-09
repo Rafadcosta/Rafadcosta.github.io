@@ -5,6 +5,12 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px 30px;
     }
+
+    div.ebook-text{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 35px;
+    }
 /* 
     header li a.active:before{
         content: '';
@@ -22,6 +28,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr ;
         gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 35px;
     }
 /*     
     header li a.active:before{
@@ -41,6 +53,17 @@
         grid-template-columns: 1fr 1fr ;
         gap: 20px 30px;
     }
+
+    div.ebook-text{
+        max-width: 420px;
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    img.ebook{
+        max-width: 460px;
+        width: 100%;
+    }
 /* 
     header li a.active:before{
         content: '';
@@ -58,6 +81,11 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        width: 100%;
+        margin-left: 35px;
     }
 
     /* header li a.active:before{
