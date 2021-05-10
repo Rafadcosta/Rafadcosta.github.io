@@ -38,7 +38,8 @@ img.frase{
 }
 
 img.service-img{
-    max-width: 100%;
+    max-width: 258px;
+    width: 100%;
 }
 
 .social a{
