@@ -7,8 +7,6 @@ body {
 header{
     background: #590407;
     padding: 50px 0;
-} header ul{
-    margin-top: 50px;
 } header li+li{
     margin-left: 20px;
 }

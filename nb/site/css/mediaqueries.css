@@ -16,6 +16,13 @@
         text-align: right;
         margin-top: -37px;
     }
+
+    .smart{
+        display: none;
+    }
+
+    header ul{
+        margin-top: 50px;}
 /* 
     header li a.active:before{
         content: '';
@@ -25,6 +32,8 @@
         top: 310px;
         background-color: #d9bfb0;
     } */
+
+    
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -45,15 +54,14 @@
         text-align: right;
         margin-top: -37px;
     }
-/*     
-    header li a.active:before{
-        content: '';
-        position:absolute;
-        height: 4px;
-        width: 117px;
-        top: 282px;
-        background-color: #d9bfb0;
-    } */
+
+    .smart{
+        display: none;
+    }
+
+    header ul{
+        margin-top: 50px;}
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -77,16 +85,16 @@
 
     .social{
         text-align: center;
+        margin-top: 10px;
     }
-/* 
-    header li a.active:before{
-        content: '';
-        position:absolute;
-        height: 4px;
-        width: 117px;
-        top: 246px;
-        background-color: #d9bfb0;
-    } */
+
+    .smart{
+        display: none;
+    }
+
+    header ul{
+        margin-top: 50px;}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -106,19 +114,19 @@
         text-align: center;
     }
 
-    /* header li a.active:before{
-        content: '';
-        position:absolute;
-        height: 4px;
-        width: 117px;
-        top: 220px;
-        background-color: #d9bfb0;
-    } */
+    .pc{
+        display: none;
+    }
+
 }
 
 @media  (max-width: 575px){ 
     .social{
         text-align: center;
+    }
+
+    .pc{
+        display: none;
     }
 }
 
