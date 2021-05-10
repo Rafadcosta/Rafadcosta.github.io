@@ -1,5 +1,6 @@
 header img{
-    max-width: 40%;
+    max-width: 205px;
+    width: 100%;
 }
 
 img.about-me{
@@ -13,7 +14,8 @@ img.nb{
 }
 
 img.ebook{
-    max-width: 100%;
+    max-width: 350px;
+    width: 100%;
 }
 
 img.ebook-title{
