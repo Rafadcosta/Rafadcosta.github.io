@@ -1,0 +1,173 @@
+@font-face{
+	font-family: GothamItalic;
+	src: url('../fonts/GothamBookItalic.ttf');
+}
+
+@font-face{
+    font-family: GothamBlack;
+	src: url('../fonts/Gotham-Black.otf');
+}
+
+@font-face{
+    font-family: GothamBook;
+	src: url('../fonts/GothamBook.ttf');
+}
+
+body {
+    font-family: 'GothamBook', sans-serif;    
+    padding: 0;
+    margin: 0;
+    background: url('../img/bg.png');
+    background-size: cover;
+	background-attachment: fixed;
+}
+
+button{
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+a:focus, a:hover, img:focus, img:hover, button:focus, button:hover {
+    outline: 0;
+    border: none;
+}
+
+/* ----------- imagens cantos ----------- */
+.cantoe {
+    position: fixed;
+    left: -300px;
+    bottom: -300px;
+    z-index: -2;
+}
+
+.cantod {
+    position: fixed;
+    width: 500px;
+    top: -220px;
+    right: -170px;
+    transform: scaleX(-1) rotate(-90deg);
+    z-index: -2;
+}
+
+.instagram{
+    height: 45px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.instagram2{
+    height: 40px;
+    margin-bottom: 15px;
+} 
+
+.instagram3{
+    height: 40px;
+    margin-bottom: 15px;
+} 
+
+.insta img{
+    transition: transform 500ms;
+}
+.insta:hover img{
+    transform: scale(1.08);
+}
+
+
+@media(max-width: 768px){
+    .cantoe, .cantod, .insta img.instagram {
+        display: none;
+    }
+} @media(min-width: 768px){
+    .instagram2{
+        display: none;
+    }
+}
+
+/* ----------- seção 1 - principal ----------- */
+#s1 {
+    padding-top: 120px;
+} 
+
+#s1 img.title {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----------- seção 2 - cursos ----------- */
+#s2 {
+    margin-top: 20px;
+}
+
+#s2 iframe.video {
+    width: 100%;
+    height: 100%;
+} @media(max-width: 768px){
+    #s2 iframe.video{
+        height: 350px;
+    }
+}
+
+#s2 .button{
+    max-width: 200px;
+}
+
+#s2 img.bolinhas{
+    max-width: 60px;
+    position: absolute;
+    bottom: 25px;
+    right: 160px;
+}
+
+#s2 .text{
+    color: #fff;
+    text-align: left;
+    font-size: 1em;
+    font-family: GothamBlack, sans-serif;
+    text-transform: uppercase;
+}
+
+#s2 p.legenda{
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+}
+
+.legenda{
+    color: #757575;
+    font-family: GothamItalic,serif;
+    font-size: 0.5em;    
+}
+
+/* ----------- footer ----------- */
+footer .footer{
+    padding-top: 40px;
+}
+
+footer p{
+    text-transform: uppercase;
+    font-family: GothamBlack,serif;
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+
+footer a{
+    color: #fff;
+    margin-right: 20px;
+    transition: color 300ms;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: #ef5d48;    
+    border-bottom: 2px solid #ce2e54;
+}
+
+footer a.insta:hover{
+    border: none;
+}
+
+

@@ -1,0 +1,103 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    div.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 35px;
+    }
+/* 
+    header li a.active:before{
+        content: '';
+        position:absolute;
+        height: 4px;
+        width: 117px;
+        top: 310px;
+        background-color: #d9bfb0;
+    } */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+    div.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 35px;
+    }
+/*     
+    header li a.active:before{
+        content: '';
+        position:absolute;
+        height: 4px;
+        width: 117px;
+        top: 282px;
+        background-color: #d9bfb0;
+    } */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+    div.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        max-width: 420px;
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    img.ebook{
+        max-width: 460px;
+        width: 100%;
+    }
+/* 
+    header li a.active:before{
+        content: '';
+        position:absolute;
+        height: 4px;
+        width: 117px;
+        top: 246px;
+        background-color: #d9bfb0;
+    } */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    div.grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px 30px;
+    }
+
+    div.ebook-text{
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    /* header li a.active:before{
+        content: '';
+        position:absolute;
+        height: 4px;
+        width: 117px;
+        top: 220px;
+        background-color: #d9bfb0;
+    } */
+}
+
+
+
+

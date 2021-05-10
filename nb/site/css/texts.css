@@ -1,0 +1,72 @@
+@font-face{
+	font-family: NomadaDidone;
+	src: url('../fonts/NomadaDidone.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+header li a{
+    font-family: NomadaDidone, serif;
+    font-size: 1.2em;
+    color: #d9bfb0;
+    text-transform: uppercase;
+}
+
+header li a:hover, header li a.active{
+    background: #d6bcad46;
+    color: #d9bfb0;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: #590407;
+    text-align: justify;
+}
+
+div.ebook-text-2{
+    max-width: 520px;
+    margin-left: 35px;
+}
+
+.description-services p{
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+textarea.msg, input.email, textarea.msg::placeholder, input.email::placeholder{
+    color: #590407;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+footer p{
+    font-size: 0.8em;
+    text-transform: uppercase;
+} footer a{
+    font-weight: 500;
+    color: #590407;
+    /* transition: border-bottom 800ms; */
+} footer a:hover{
+    text-decoration: none;
+    color: #590407;
+    border-bottom: 2px solid #590407;
+    width: 100%;
+}
+
+.service-title{
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: 900;
+    padding-top: 25px;
+}
+
+a.insta{
+    color: #590407;
+    transition: color 1000ms;
+} a.insta:hover{
+    text-decoration: none;
+    color: #5904079c;
+}
