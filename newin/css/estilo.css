@@ -32,15 +32,11 @@ html, body, .capa{
 } 
 
 body{
-	/* fazer uma composição de 3 backgrounds
-	/* background: url('imagens/capa.png'), 
-				url('imagens/1.png'),
-				rgba(0, 0, 0, 0.6);deixar letra minuscula */
-	/*background-attachment: fixed; /*mater a imagem de fundo fixa*/
 	font-family: barlowLight, sans-serif;
-	background-image: url('../images/bg.png');	
+	background: #F8F9FA;
+	/* background-image: url('../images/bg.png');	
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed; */
 }
 
 /* ========================= divisões ======================== */
@@ -56,32 +52,9 @@ body{
 	margin: 45px 0 35px 0;
 }
 
-.promisse{
-	padding: 30px 0;
-}
-
-.icons{
-	padding: 35px 0;
-}
-
-.info{
-	padding: 45px 0;
-}
-
-#section-2, #section-4{
-	margin-top: 80px;
-}
-
 .align{
 	padding-top: 35px;	
 	padding-bottom: 35px;
-}
-
-.feedback-clients{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	margin-top: 45px;
-	gap: 20px;
 }
 
 .feedback{
@@ -99,41 +72,34 @@ body{
 	gap: 60px;
 }
 
+#section-2, #section-4{
+	margin-top: 80px;
+	margin-bottom: 70px;
+}
 
 #section-6{
-	background-color: #2C2C30;
+	background-color: #000;
 	padding: 80px 0;
 	margin-top: 100px;
 }
 
+.production, .faq {
+	display: flex;
+}
 
+.production {
+	margin-top: 30px;
+}
 
 /* ========================= textos ======================== */
 
-h2 {
-	font-size: 3em;
-	line-height: 0.5em;
-}
-
-h3{
-	font-size: 2.4em;
-}
-
-h5 span{
-	font-size: 2em;
-}
-
 .bold{
 	font-family: barlowSemiBold,sans-serif;
-}
-
-.bolder{
+} .bolder{
 	font-family: barlowBlack, sans-serif;
 } h2{
 	font-family: barlowSemiBold, sans-serif;
-}
-
-p{	
+} p{	
 	color: #2C2C30;
 }
 
@@ -159,18 +125,17 @@ a img.text-info:hover{
 }
 
 .icon{
-	max-width: 100%;
+	text-align: center;
 	margin-bottom: 20px;
 	transition: transform 300ms ease-in;
 } .icon:hover{
-	transform: scale(1.05);
+	transform: scale(1.05);	
 }
 
-.box img, img.selo{
-	max-width: 100%;
-	width: 150px;
+.icon img{
+	width: 100%;
+	max-width: 580px;
 }
-
 
 .security img{
 	max-width: 100%;
@@ -180,7 +145,6 @@ a img.text-info:hover{
 	filter: brightness(0) invert(1);
 	max-width: 100px;
 }
-
 
 /* ========================= Slider ======================== */
 
@@ -226,7 +190,7 @@ a img.text-info:hover{
 	color:white;
 	overflow: hidden;
 	padding: 10px;
-	margin: 60px 0;
+	margin: 60px 0 0 0;
 }
 
 .slider2 .slide img{
@@ -261,7 +225,7 @@ a img.text-info:hover{
 	color:white;
 	overflow: hidden;
 	padding: 10px;
-	margin: 60px 0;
+	margin: 60px 0 0 0;
 }
 
 .slider3 .slide img{
@@ -288,7 +252,7 @@ a img.text-info:hover{
 	opacity: 1;
 }
 
-/* ========================= Slider ======================== */
+/* ========================= Footer ======================== */
 
 
 footer{
@@ -350,12 +314,48 @@ footer{
 	color: #2C2C30;
 }
 
-/* ========================= fonte smartphones ======================== */
+/* ========================= setas ======================== */
 
-@media only screen and (max-width: 767px){
-	h3{
-		font-size: 2em;
-	}
+.seta{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#arrow-prev {
+	background-image: url('../images/larrow.png');	
+}
+  
+#arrow-next {
+	background-image: url('../images/arrow.png');
+}
+
+#arrow-prev2 {
+	background-image: url('../images/larrow.png');	
+}
+  
+#arrow-next2 {
+	background-image: url('../images/arrow.png');
+}
+
+#arrow-prev3 {
+	background-image: url('../images/larrow.png');	
+}
+  
+#arrow-next3 {
+	background-image: url('../images/arrow.png');
+}
+
+.arrow {
+	margin-right: 15px;
+	margin-top: 15px;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+	cursor: pointer;
+	vertical-align: middle;
 }
 
 
