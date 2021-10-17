@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background: #5C1329;
+    padding: 50px 0 30px;
+} header li+li{
+    margin-left: 20px;
+}
+
+#services, footer{
+    background: #5C1329;
+    padding: 50px 0;
+}
+
+button{
+    color: #fff;
+    background: #5C1329;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: transform 1000ms;
+    width: 150px;
+    border-radius: 5px;
+} button:hover{
+    transform: scale(1.1);
+}
+
+.container-min{
+    width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;max-width:720px;text-align:justify;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.card{
+    padding: 20px;
+    text-align: center;
+    color: #5C1329;
+    background: #fff;
+    margin: 0 20px;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    
+}
+
+.item{
+    padding: 20px;
+    text-align: center;
+    color: #5C1329;
+    background: #fff;
+    border-radius: 5px;
+    transition: transform 800ms ease;
+    margin: 0 20px;
+}
+
+.item:hover{
+    transform: scale(1.05);
+}
+
+.line{
+    background: #5C1329;
+    height: 2px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.bookings{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.booking{
+    padding: 20px;
+    text-align: center;
+}
+
+.rock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.r-day{
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin: 0 20px;
+}
+
+/* -- Footer --*/
+
+
+.footer-col img{
+    max-width: 100%;
+}
+
+.footer-list li {
+	margin-bottom: 10px;
+}
+
+.footer-col a:hover {
+	color: #fff;
+}
+
+.footer-credits {
+	border-top: 1px dashed #555;
+	margin-top: 40px;
+	padding: 15px 0;
+	font-size: 14px;
+    color: #fff;
+}
+
+.footer-credits a {
+	color: #C39C5F !important;
+}
+
+.footer-credits a:hover {
+	color: #C39C5F;
+}
+
+.footer-credits .nav-link {
+	color: #fff;
+}
+
+.footer-credits p {
+	color: #fff;
+    text-transform: uppercase;
+}
+
+iframe{
+    width: 100%;
+}

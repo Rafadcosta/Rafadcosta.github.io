@@ -1,0 +1,84 @@
+@font-face{
+	font-family: NomadaDidone;
+	src: url('../fonts/NomadaDidone.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+header li a{
+    font-family: Ubuntu, serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header li a:hover, header li a.active{
+    background: #d6bcad46;
+    color: #fff;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    text-align: justify;
+}
+
+.card p{
+    color: #590407;
+}
+
+h1, h2{
+    color: #fff;
+}
+
+h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.white{
+    color: #fff;
+}
+
+.hostel li, .values ul, .values li, .courses li{
+    color: #fff;
+}
+
+.values li{
+    list-style: inside;
+}
+
+.strong{
+    font-weight: 700;
+}
+
+.footer {
+	font-family: Ubuntu, sans-serif;
+	color: #fff;
+}
+
+.footer-title {
+	color: #C39C5F;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.footer a{
+    color: #fff;
+}
+
+.instas{
+    color: #fff;
+}
+
+.instas a{
+    color: #C39C5F;
+}

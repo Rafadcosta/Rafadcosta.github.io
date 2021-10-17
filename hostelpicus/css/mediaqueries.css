@@ -1,0 +1,133 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+    header ul{
+        margin-top: 50px;
+    }
+
+    .smart{
+        display: none;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px){ 
+
+    header ul{
+        margin-top: 50px;
+    }
+
+    .smart{
+        display: none;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+
+    header ul{
+        margin-top: 50px;
+    }
+
+    .smart{
+        display: none;
+    }
+
+    h1{
+        font-size: 4.5em;
+        font-weight: 700;
+    }
+    
+    h2{
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+
+    .items{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+        
+    }
+
+    .bookings{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .rock{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    h1{
+        font-size: 4.5em;
+        font-weight: 700;
+    }
+    
+    h2{
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+}
+
+@media  (max-width: 575px){ 
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+
+    .items{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 30px;
+    }
+
+    .rock{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    .bookings{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    h1{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    
+    h2{
+        font-size: 1.6em;
+        font-weight: 500;
+    }
+}
+
+
