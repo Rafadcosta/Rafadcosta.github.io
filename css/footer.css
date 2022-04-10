@@ -13,32 +13,32 @@
 }
 
 .footer-texto {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   line-height: 1.33;
-  color: #fff;
+  color: #D9A86C;
 }
 
 .footer-contato li {
   font-weight: bold;
   font-size: 2.25rem;
   line-height: 1.1;
-  color: #ffffff;
+  color: #D9A86C;
   margin-bottom: 30px;
 }
 
 .footer-contato li a {
-  color: #ffffff;
+  color: #D9A86C;
 }
 
 .footer-copy {
   grid-column: 1 / -1;
   font-size: 1.125rem;
-  color: #fff;
+  color: #D9A86C;
 }
 
 .footer a{
-  color: #fff;
-  margin-right: 20px;
+  color: #D9A86C;
+  margin-right: 25px;
   transition: color 500ms;
 }
 
