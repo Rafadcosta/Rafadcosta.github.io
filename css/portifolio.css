@@ -64,6 +64,12 @@
 .port-img{
   border-radius: 5px;
   margin-bottom: 20px;
+  transition: transform 500ms ease-in-out;
+}
+
+.port-img:hover{
+  cursor: pointer;
+  transform: scale(1.01);
 }
 
 .port-nome::before {
