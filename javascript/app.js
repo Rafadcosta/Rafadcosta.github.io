@@ -1,28 +1,5 @@
-// efeito de máquina de escrever
-
-function typeWriter(elemento){
-    const textArray = elemento.innerHTML.split('');
-    elemento.innerHTML = '';
-    textArray.forEach((letra, i) => {
-        setTimeout ( () => elemento.innerHTML += letra, 100 * i)
-    });
-}
-
-const a1 = document.querySelector('.a1');
-const a2 = document.querySelector('.a2');
-const a3 = document.querySelector('.a3');
-const a4 = document.querySelector('.a4');
-const a5 = document.querySelector('.a5');
-typeWriter(a1);
-typeWriter(a2);
-typeWriter(a3);
-typeWriter(a4);
-typeWriter(a5);
-
-// fim efeito de máquina de escrever
-
 // efeito de scroll suave
-const menuItems = document.querySelectorAll('.navbar a[href^="#"');
+const menuItems = document.querySelectorAll('.header-menu a[href^="#"');
 
 menuItems.forEach(item => {
 	item.addEventListener('click', scrollToIdOnClick);
@@ -35,7 +12,7 @@ function getScrollTopByHref(element){
 
 function scrollToIdOnClick(e){
 	e.preventDefault();
-	const to = getScrollTopByHref(e.target) - 80;
+	const to = getScrollTopByHref(e.target);
 
 	scrollToPosition(to);
 }
