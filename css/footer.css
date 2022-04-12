@@ -46,6 +46,14 @@
   color: #401410;
 }
 
+.footer-description{
+  display: flex;
+}
+.footer-description img{
+  max-height: 50px;
+  margin-right: 10px;
+}
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
