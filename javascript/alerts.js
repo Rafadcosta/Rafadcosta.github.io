@@ -7,8 +7,6 @@ document.querySelector("#jg").addEventListener('click', function(){
     title: 'JG Digital Marketing',    
     imageUrl: '.././img/portfolio/jg.png',
     imageAlt: 'JG Digital Marketing',
-    html:
-    '<a target="_blank" href="https://jgdigitalmkt.com/">Acesse o site aqui</a>',
   })
 });
 
