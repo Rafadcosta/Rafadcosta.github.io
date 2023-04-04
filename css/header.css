@@ -1,0 +1,30 @@
+.header-content{
+    max-width: 1100px;
+    padding: 15px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image{
+    max-height: 75px;
+}
+
+.header-link + .header-link{
+    margin-left: 45px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;    
+    padding: 10px 7px 5px;
+    border-radius: 8px 8px 8px 0;
+    transition: all 500ms;
+}
+
+.header-link:hover{
+    color: #FFDA00;
+    background-color: #1B5396;
+}
