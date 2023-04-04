@@ -17,12 +17,24 @@
 }
 
 .about-images{
-    text-align: right;
+    text-align: right;    
+    cursor: pointer;
 }
 
 .about-image{
     width: 100%;
     max-width: 230px;
+}
+
+#about-photo{
+    position: absolute;
+    max-width: 210px;    
+    visibility: hidden;
+}
+
+#about-photo.show{
+    visibility: visible;
+
 }
 
 .about-title{
