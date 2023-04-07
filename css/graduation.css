@@ -1,0 +1,58 @@
+#graduation{
+    background-color: #fff;
+    width: 100%;
+    color: #0C63EE;
+    padding: 30px 0 50px 0;
+}
+
+.graduation-content{
+    max-width: 960px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graduation-details{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 100px;
+    align-items: center;
+    justify-items: right;
+    padding: 0 90px
+}
+
+.graduation-image{
+    max-width: 90px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 100px;
+}
+
+.graduation-title{
+    font-size: 4.4rem;
+    text-transform: uppercase;
+}
+
+.graduation-text{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.graduation-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 30px;
+}
+
+.graduation-item{
+    background-color: #0C63EE;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    height: 100%;
+    padding: 10px 20px 0 20px;
+}
