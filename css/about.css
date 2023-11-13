@@ -34,7 +34,9 @@
 
 #about-photo.show{
     visibility: visible;
-    animation: show 3s;
+    animation: show 3.5s;
+    transition: all;
+
 }
 
 .about-title{
