@@ -44,7 +44,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     align-items: center;
-    justify-items: center;
     padding: 0 30px;
 }
 
@@ -60,13 +59,105 @@
 
 /* Imagens do portfolio */
 
-.portfolio-item{
-    background: linear-gradient(
-        rgba(34, 34, 34, 0.6),
-        rgba(62, 52, 51, 0.45)),
-        url('../img/portfolio/bethdantas.png');
+.portfolio-item{    
     /* background-image: url('../img/portfolio/bethdantas.png'); */
     background-size: cover;
     background-position: center;
     background-color: #000;
+}
+
+.portfolio-item.bd {
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/bethdantas.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.jg{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/jg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.nb{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/nathalia.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.sfc{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/shinefairies.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.am{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/anju.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.ni{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/newin.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.bs{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/buildsmart.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.wc{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/wiva.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.hs{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/habitat.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
 }
