@@ -50,21 +50,13 @@
 .portfolio-item{
     background-color: #0C63EE;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 20px 20px 20px 0;
     text-align: center;
     height: 100%;
     padding: 10px 20px 0 20px;
 }
 
-
 /* Imagens do portfolio */
-
-.portfolio-item{    
-    /* background-image: url('../img/portfolio/bethdantas.png'); */
-    background-size: cover;
-    background-position: center;
-    background-color: #000;
-}
 
 .portfolio-item.bd {
     background: linear-gradient(
