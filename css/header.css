@@ -29,11 +29,6 @@
     background-color: #1B5396;
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 788px){ 
-    
-    
-}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 787px){ 
