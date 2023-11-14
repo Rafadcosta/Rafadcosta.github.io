@@ -22,3 +22,20 @@ body{
 .yellow{
     color: #FFDA00;
 }
+
+/* Global media queries */
+
+/* Medium devices (tablets, 788px and up) */
+/* @media (min-width: 788px){ 
+    
+} */
+
+/* Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) and (max-width: 787px){ 
+   
+} */
+
+/* Super small devicess :D */
+/* @media  (max-width: 575px){ 
+
+} */
