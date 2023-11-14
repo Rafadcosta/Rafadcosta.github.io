@@ -1,0 +1,19 @@
+#footer{
+    padding: 40px 0;
+}
+
+.footer-content{
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-details{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 100px;
+    align-items: center;
+    justify-items: right;
+    padding: 0 90px;
+}
