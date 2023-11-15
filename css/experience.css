@@ -99,3 +99,83 @@
 .skills p:hover{
     color: #FFDA00;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .experience-content{
+        padding: 0;
+    }
+
+    .experience-details{
+        gap: 10px;
+    }
+
+    .experience-items{
+        padding: 0 15px;
+    }
+
+    .exp-title{
+        font-size: 1.5em;
+    }
+
+    .experience-item ul {
+        font-size: 1em;
+    }
+
+    .skills p{
+        font-size: 0.8em;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .experience-content{
+        padding: 0;
+    }
+
+    .experience-details{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding: 0 20px;        
+    }
+
+    .experience-title{
+        font-size: 2.8em;
+        line-height: 1;
+        margin: 0;
+    }
+
+    .experience-image{
+        max-width: 55px;
+    }
+
+    .experience-text{
+        text-align: center;
+    }
+
+    .experience-items{
+        padding: 0 15px;
+    }
+
+    .experience-item ul, .skills{
+        display: none;
+    }
+
+    .experience-item{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        justify-items: center;
+    }
+
+    .exp-title{
+        font-size: 1em;
+        margin: 0;
+    }
+
+    .exp-title.role{
+        font-size: 1.2em;
+        color: #FFDA00;
+    }
+}
