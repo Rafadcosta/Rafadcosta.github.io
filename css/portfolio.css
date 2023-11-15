@@ -172,6 +172,7 @@
         grid-template-columns: 1fr;
         justify-items: center;
         margin-bottom: 10px;
+        padding: 0 20px;
     }
 
     .portfolio-title {
