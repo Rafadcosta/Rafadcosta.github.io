@@ -153,3 +153,43 @@
     color: #fff;
     cursor: pointer;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .portfolio-details{
+        gap: 30px;
+    }
+
+   .portfolio-items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .portfolio-details{
+        gap: 10px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-title {
+        font-size: 2.8em;
+        margin: 0;
+    }
+
+    .portfolio-image {
+        max-width: 55px;
+        margin-top: 40px;
+        margin-left: 65px;
+    }
+
+    .portfolio-items{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-item h2{
+        font-size: 1.3em;
+    }
+}
