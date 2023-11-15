@@ -19,6 +19,7 @@
 .about-images{
     text-align: right;    
     cursor: pointer;
+    width: 100%;
 }
 
 .about-image{
@@ -63,5 +64,60 @@
     }
     100%{
         width: 100%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .about-content{
+        gap: 5px;
+    }
+
+    .about-title {
+        font-size: 2.2em;
+    }
+
+    #about-photo{
+        max-width: 200px;
+    }
+
+    .circle{
+        max-width: 150px;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .about-content{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about-images{
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+
+    .about-title{
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .about-image{
+        max-width: 150px;
+    }
+
+    .circle{
+        max-width: 80px;
+        margin-left: -10px;
+    }
+
+    #about-photo{
+        max-width: 140px;
     }
 }
