@@ -48,3 +48,36 @@
     font-size: 1em;
     padding: 10px 0px;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+   .languages-details{
+    gap: 15px;
+    padding: 0 40px;
+   }
+
+   #languages{
+    padding: 20px;
+   }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .languages-details{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+
+    .languages-title{
+        margin: 0;
+        font-size: 2.8em;
+    }
+
+    .languages-image{
+        margin-top: 5px;
+        max-width: 55px;
+        margin-left: -40px;
+    }
+
+}
