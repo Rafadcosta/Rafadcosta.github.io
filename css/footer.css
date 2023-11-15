@@ -26,6 +26,7 @@
 .footer-social{
     justify-items: left;
 }
+
 .footer-social a{
     color: #ffda00;
 }
@@ -38,4 +39,28 @@
     text-align: center;
     margin-top: 30px;
     font-weight: 300;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .footer-social a + a{
+        margin-left: 5px;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .footer-social a + a{
+        margin-left: 5px;
+    }
+
+    .footer-details{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    .footer-logo img {
+        max-width: 150px;
+    }
 }
