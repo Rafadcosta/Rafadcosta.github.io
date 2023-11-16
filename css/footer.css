@@ -1,65 +1,70 @@
-.footer {
-  background: #8C533E;
+#footer{
+    padding: 60px 0;
 }
 
-.footer-container {
-  max-width: 1200px;
-  padding: 120px 20px 60px 20px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  align-items: center;
+.footer-content{
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-texto {
-  font-size: 1.125rem;
-  line-height: 1.33;
-  color: #D9A86C;
+.footer-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 90px;
 }
 
-.footer-contato li {
-  font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 1.1;
-  color: #D9A86C;
-  margin-bottom: 30px;
+.footer-logo img{
+    max-width: 180px;
+    width: 100%;
 }
 
-.footer-contato li a {
-  color: #D9A86C;
+.footer-social{
+    justify-items: left;
 }
 
-.footer-copy {
-  grid-column: 1 / -1;
-  font-size: 1.125rem;
-  color: #D9A86C;
+.footer-social a{
+    color: #ffda00;
 }
 
-.footer a{
-  color: #D9A86C;
-  margin-right: 25px;
-  transition: color 500ms;
+.footer-social a + a{
+    margin-left: 25px;
 }
 
-.footer a:hover{
-  color: #401410;
+.footer-credits{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 300;
 }
 
-.footer-description{
-  display: flex;
-}
-.footer-description img{
-  max-height: 50px;
-  margin-right: 10px;
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .footer-social a + a{
+        margin-left: 5px;
+    }
 }
 
-@media (max-width: 800px) {
-  .footer-container {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .footer-contato li {
-    font-size: 1.5rem;
-  }
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .footer-social a + a{
+        margin-left: 5px;
+    }
+
+    .footer-details{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 0 20px;
+    }
+
+    .footer-logo img {
+        max-width: 150px;
+    }
+
+    .footer-credits{
+        padding: 0 10px;
+    }
 }

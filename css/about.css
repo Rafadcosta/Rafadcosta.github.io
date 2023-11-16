@@ -1,0 +1,123 @@
+.about-content{
+    max-width: 960px;
+    padding: 15px 20px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+}
+
+.circle{
+    max-width: 180px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 120px;
+    margin-left: -40px;
+}
+
+.about-images{
+    text-align: right;    
+    cursor: pointer;
+    width: 100%;
+}
+
+.about-image{
+    width: 100%;
+    max-width: 230px;
+}
+
+#about-photo{
+    position: absolute;
+    max-width: 210px;    
+    visibility: hidden;
+}
+
+#about-photo.show{
+    visibility: visible;
+    animation: show 3.5s;
+    transition: all;
+
+}
+
+.about-title{
+    font-size: 2.8rem;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.about-text .yellow{
+    font-weight: 700;
+}
+
+.about-text{
+    font-size: 1.1em;
+    margin: 0 auto 5px;
+}
+
+@keyframes show{
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .about-content{
+        gap: 5px;
+    }
+
+    .about-title {
+        font-size: 2.2em;
+    }
+
+    #about-photo{
+        max-width: 200px;
+    }
+
+    .circle{
+        max-width: 150px;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .about-content{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about-images{
+        text-align: center;
+    }
+
+    .about-text{
+        text-align: center;
+    }
+
+    .about-title{
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    .about-image{
+        max-width: 150px;
+    }
+
+    .circle{
+        max-width: 80px;
+        margin-left: -10px;
+    }
+
+    #about-photo{
+        max-width: 140px;
+    }
+}

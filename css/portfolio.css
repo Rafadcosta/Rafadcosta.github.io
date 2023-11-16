@@ -1,0 +1,196 @@
+#portfolio{
+    background-color: #f9f9f9;
+    width: 100%;
+    color: #0C63EE;
+    padding: 30px 0 50px 0;
+}
+
+.portfolio-content{
+    max-width: 960px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-details{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 100px;
+    align-items: center;
+    justify-items: right;
+    padding: 0 90px
+}
+
+.portfolio-image{
+    max-width: 90px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 115px;
+}
+
+.portfolio-title{
+    font-size: 4.4rem;
+    text-transform: uppercase;
+}
+
+.portfolio-text{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.portfolio-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.portfolio-item{
+    background-color: #0C63EE;
+    color: #fff;
+    border-radius: 20px 20px 20px 0;
+    text-align: center;
+    height: 100%;
+    padding: 10px 20px 0 20px;
+}
+
+/* Imagens do portfolio */
+
+.portfolio-item.bd {
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/bethdantas.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.jg{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/jg.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.nb{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/nathalia.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.sfc{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/shinefairies.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.am{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/anju.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.ni{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/newin.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.bs{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/buildsmart.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.wc{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/wiva.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item.hs{
+    background: linear-gradient(
+        rgba(34, 34, 34, 0.8),
+        rgba(26, 24, 24, 0.6)),
+        url('../img/portfolio/habitat.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+.portfolio-item a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .portfolio-details{
+        gap: 30px;
+    }
+
+   .portfolio-items{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .portfolio-details{
+        gap: 10px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-bottom: 10px;
+        padding: 0 20px;
+    }
+
+    .portfolio-title {
+        font-size: 2.8em;
+        margin: 0;
+    }
+
+    .portfolio-image {
+        max-width: 55px;
+        margin-top: 40px;
+        margin-left: 65px;
+    }
+
+    .portfolio-items{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-item h2{
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,109 @@
+#graduation{
+    background-color: #f9f9f9;
+    width: 100%;
+    color: #0C63EE;
+    padding: 30px 0 50px 0;
+}
+
+.graduation-content{
+    max-width: 960px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graduation-details{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 100px;
+    align-items: center;
+    justify-items: right;
+    padding: 0 90px
+}
+
+.graduation-image{
+    max-width: 90px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 100px;
+}
+
+.graduation-title{
+    font-size: 4.4rem;
+    text-transform: uppercase;
+}
+
+.graduation-text{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.graduation-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+    padding: 0 30px;
+}
+
+.graduation-item{
+    background-color: #0C63EE;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    height: 100%;
+    padding: 10px 20px 0 20px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+    .graduation-details {
+        gap: 50px;
+    }
+
+    .graduation-items{
+        gap: 10px;
+    }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .graduation-details {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .graduation-title{
+        margin: 10px 0 0;
+        font-size: 2.8em;
+    }
+
+    .graduation-image{
+        margin-top: 35px;
+        margin-left: 80px;
+        max-width: 55px;
+    }
+
+    .graduation-text{
+        text-align: center;
+    }
+
+    .graduation-items{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .graduation-item{
+        width: 100%;
+        margin: 0;
+    }
+
+    #graduation{
+        padding: 30px 0 20px;
+    }
+}

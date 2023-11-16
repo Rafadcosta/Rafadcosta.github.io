@@ -1,0 +1,84 @@
+#languages{
+    padding: 40px 0;
+}
+
+.languages-content{
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.languages-details{
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 100px;
+    align-items: center;
+    justify-items: right;
+    padding: 0 90px;
+}
+
+.languages-image{
+    max-width: 100px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 50px;
+}
+
+.languages-title{
+    font-size: 4.4rem;
+    text-transform: uppercase;
+}
+
+.languages-items{
+    width: 100%;    
+    text-align: center;
+}
+
+.language-item{
+    background-color: #1b5396;
+    border-radius: 20px 20px 20px 0;
+}
+
+.language-item + .language-item{
+    margin-top: 15px;
+}
+
+.language-item p{
+    font-size: 1em;
+    padding: 10px 0px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 787px){ 
+   .languages-details{
+    gap: 15px;
+    padding: 0 40px;
+   }
+
+   #languages{
+    padding: 20px;
+   }
+}
+
+/* Super small devicess :D */
+@media  (max-width: 575px){ 
+    .languages-details{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 10px;
+        padding: 0 20px;
+    }
+
+    .languages-title{
+        margin: 0;
+        font-size: 2.8em;
+    }
+
+    .languages-image{
+        margin-top: 5px;
+        max-width: 55px;
+        margin-left: -40px;
+    }
+
+}
