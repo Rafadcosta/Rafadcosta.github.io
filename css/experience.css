@@ -177,5 +177,12 @@
     .exp-title.role{
         font-size: 1.2em;
         color: #FFDA00;
+        text-align: center;
+    }
+
+    .exp-date{
+        width: 100%;
+        max-width: 140px;
+        font-size: 1em;
     }
 }

@@ -80,10 +80,13 @@
 
     .graduation-title{
         margin: 10px 0 0;
+        font-size: 2.8em;
     }
 
     .graduation-image{
-        margin-top: 60px;
+        margin-top: 35px;
+        margin-left: 80px;
+        max-width: 55px;
     }
 
     .graduation-text{

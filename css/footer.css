@@ -63,4 +63,8 @@
     .footer-logo img {
         max-width: 150px;
     }
+
+    .footer-credits{
+        padding: 0 10px;
+    }
 }
