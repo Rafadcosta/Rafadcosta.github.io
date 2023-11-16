@@ -158,6 +158,11 @@
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.portfolio-item a:hover{
+    color: #ffda00;
 }
 
 /* Small devices (landscape phones, 576px and up) */
