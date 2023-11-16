@@ -17,6 +17,12 @@
     max-width: 75px;
     position: absolute;
     margin-left: -50px;
+    transition: all 1s;
+}
+
+.experience-image:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
 }
 
 .experience-title{

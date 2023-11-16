@@ -27,6 +27,12 @@
     position: absolute;
     margin-left: 115px;
     margin-top: 115px;
+    transition: all .5s;
+}
+
+.portfolio-image:hover{
+    -webkit-transform: rotateZ(-360deg) scale(1.2);
+    transform: rotateZ(-360deg) scale(1.2);
 }
 
 .portfolio-title{
