@@ -186,6 +186,10 @@
         margin-left: 65px;
     }
 
+    .portfolio-text{
+        text-align: center;
+    }
+
     .portfolio-items{
         grid-template-columns: 1fr;
     }
