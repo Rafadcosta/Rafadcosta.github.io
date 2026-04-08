@@ -11,17 +11,15 @@ function getScrollTopByHref(element){
 
 function scrollToIdOnClick(e){
 	e.preventDefault();
-	const to = getScrollTopByHref(e.target);
+	const to = getScrollTopByHref(e.currentTarget);
 
 	scrollToPosition(to);
 }
 
 function scrollToPosition(to){
-	// window.scroll({
-	// 	top: to - 82,
-	// 	behavior: "smooth"
-	// });
-	smoothScrollTo(0, to, 1500);
+	smoothScrollTo(0, to, 1500, () => {
+		history.replaceState(null, '', window.location.pathname + window.location.search);
+	});
 }
 
 // Para compilar também em browsers antigos
