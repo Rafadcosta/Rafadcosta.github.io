@@ -3,13 +3,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
-    <meta name="author" content="Rafaela Duque - @rafad.dev">
-    <!-- falta icone -->
+    <meta name="author" content="Rafaela Duque">
     <link rel="icon" href="./img/icon.ico" type="image/ico">
-    <title>Rafaela Duque | @rafad.dev</title>
-    <meta name="description" content="Suporte de TI & Desenvolvedora Front End, localizada em Taubaté/SP">
+    <title>Rafaela Duque | Product Owner</title>
+    <meta name="description" content="Product Owner | Estratégia de Produto & Tecnologia | EdTech — Taubaté/SP">
     <script src="https://kit.fontawesome.com/d72ce5a0e7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/global.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDNPK35VS3"></script>
@@ -17,187 +17,79 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-YDNPK35VS3');
     </script>
-
 </head>
 <body>
+
+    <!-- HEADER -->
     <header id="header">
         <div class="header-content">
-            <img src="./img/rafa-h.svg" alt="" class="header-image">
-
+            <a href="#about" class="header-wordmark">
+                <img src="./img/ico100.png" alt="Rafaela Duque" class="header-logo">
+            </a>
             <div class="header-links">
+                <a href="#diferencial" class="header-link">Sobre</a>
                 <a href="#experience" class="header-link">Experiência</a>
                 <a href="#graduation" class="header-link">Formação</a>
                 <a href="#portfolio" class="header-link">Portfólio</a>
-                <a href="#footer" class="header-link">Contato</a>
+                <a href="#footer" class="header-link header-cta">Contato</a>
             </div>
         </div>
     </header>
 
+    <!-- HERO -->
     <section id="about">
+        <div class="hero-noise"></div>
         <div class="about-content">
-            <div class="about-images"  onmouseover="showPhoto()" onmouseout="hidePhoto()">
-                <img src="./img/foto.svg" alt="Rafaela Duque" id="about-photo">
-                <img class="circle" src="./img/circle-solid.svg" alt="Círculo Branco" >                
-                <img class="about-image" src="./img/rafaela-vector.svg" alt="Rafaela Duque">
-                
-            </div>
             <div>
-                <p class="about-text">Olá, sou a <span class="yellow">Rafa</span> :) </p>
-                <h1 class="about-title">Suporte de TI & <br>Desenvolvedora<br>Front End</h1>
-                <p class="about-text">E estou localizada em <strong>Taubaté/SP</strong></p>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience">
-        <div class="experience-content">
-            <div class="experience-details">
-                <div>
-                    <img src="./img/experiencia.svg" alt="Experiência" class="experience-image">
-                    <h1 class="experience-title">
-                        Expe <br>
-                        riên <br>
-                        cia.
-                    </h1>
-                </div>
-                <div>
-                    <p class="experience-text">Desde 2018 atuando com tecnologia voltada à educação. Competências adquiridas em <strong>liderança</strong> e <strong>gestão de equipes</strong>, com foco no <strong>suporte</strong> e atendimento aos clientes finais. Também realizadas participações em projetos da empresa e freelances com <strong>programação Front-end.</strong></p>
+                <div class="hero-badge">Disponível para projetos</div>
+                <h1 class="about-title">
+                    Product Owner<br>
+                    & <span class="accent">Estratégia</span><br>
+                    de Produto
+                </h1>
+                <p class="about-description">
+                    Atuo na interseção entre estratégia, tecnologia e experiência do usuário — transformando complexidade operacional em produto com clareza e valor real. Com base em Taubaté/SP.
+                </p>
+                <div class="hero-actions">
+                    <a href="https://www.linkedin.com/in/rafaela-duque" target="_blank" rel="noopener" class="btn-primary">
+                        <i class="fa fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="#experience" class="btn-secondary">
+                        Ver trajetória <i class="fa fa-arrow-down"></i>
+                    </a>
                 </div>
             </div>
-
-            <div class="experience-items">
-
-                <div class="exp-date">
-                    10/2023 - Atual
-                </div>
-
-                <div class="experience-item">
-                    <div>
-                        <h2 class="exp-title">
-                            Apus Soluções em TI
-                        </h2>
-                        <ul>
-                            <li>Garantir a qualidade de atendimento</li>
-                            <li>Responsável pelo treinamento e capacitação das equipes do setor</li>
-                            <li>Desenvolver manuais e guias de suporte técnico interno e externo</li>
-                            <li>Criar métricas e KPIs do setor em conjunto com diretoria administrativa</li>
-                            <li>Coordenar as contratações do setor em conjunto com diretoria administrativa</li>
-                            <li>Criar política de suporte técnico em conjunto com diretoria de TI e administrativa</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="exp-title role">
-                            Diretora de Suporte Técnico
-                        </h2>
-
-                        <div class="skills">
-                            <p>Gestão</p>
-                            <p>Pensamento Estratégico</p>
-                            <p>Liderança</p>
-                            <p>SQL</p>
-                            <p>Gestão de serviços de atendimento ao cliente</p>
-                            <p>Treinamento e Desenvolvimento</p>
-                            <p>PHP</p>
-                            <p>Javascript</p>                         
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-card-label">Áreas de atuação</div>
+                    <div class="hero-pillar">
+                        <div class="pillar-icon"><i class="fa fa-layer-group"></i></div>
+                        <div class="pillar-text">
+                            <strong>Estratégia de Produto</strong>
+                            <span>Backlog, requisitos, roadmap</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="exp-date darkblue">
-                    05/2021 - 09/2023
-                </div>
-
-                <div class="experience-item darkblue">
-                    <div>
-                        <h2 class="exp-title">
-                            Apus Soluções em TI
-                        </h2>
-                        <ul>
-                            <li>Gestão de equipe</li>
-                            <li>Gestão do suporte e atendimento ao cliente</li>
-                            <li>Manipulação de banco de dados SQL</li>
-                            <li>Desenvolvimento e manutenção de serviços utilizando PHP, Javascript e ReactJS</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="exp-title role">
-                            Gerente de Suporte
-                        </h2>
-
-                        <div class="skills">
-                            <p>Gestão</p>
-                            <p>React</p>
-                            <p>Liderança</p>
-                            <p>SQL</p>
-                            <p>Atendimento</p>
-                            <p>PHP</p>
-                            <p>Javascript</p>
-                            <p>Suporte</p>
+                    <div class="hero-pillar">
+                        <div class="pillar-icon"><i class="fa fa-graduation-cap"></i></div>
+                        <div class="pillar-text">
+                            <strong>EdTech & Sistemas Acadêmicos</strong>
+                            <span>Ambientes regulados e complexos</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="exp-date darkblue">
-                    10/2019 - 04/2021
-                </div>
-
-                <div class="experience-item darkblue">
-                    <div>
-                        <h2 class="exp-title">
-                            Apus Soluções em TI
-                        </h2>
-                        <ul>
-                            <li>Suporte e atendimento ao cliente</li>
-                            <li>Manipulação de banco de dados SQL</li>
-                            <li>Criação e manutenção de relatórios com PHP e SQL</li>
-                            <li>Desenvolvimento de features front-end junto à equipe de desenvolvimento</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="exp-title role">
-                            Analista de suporte
-                        </h2>
-
-                        <div class="skills">
-                            <p>React</p>
-                            <p>Atendimento</p>
-                            <p>SQL</p>
-                            <p>PHP</p>
-                            <p>Javascript</p>
-                            <p>Suporte</p>
+                    <div class="hero-pillar">
+                        <div class="pillar-icon"><i class="fa fa-sync-alt"></i></div>
+                        <div class="pillar-text">
+                            <strong>Transformação Digital</strong>
+                            <span>Inovação, governança e qualidade</span>
                         </div>
                     </div>
-                </div>
-
-                <div class="exp-date darkblue">
-                    09/2018 - 09/2019
-                </div>
-
-                <div class="experience-item darkblue">
-                    <div>
-                        <h2 class="exp-title">
-                            Apus Soluções em TI
-                        </h2>
-                        <ul>
-                            Serviços prestados diretamente com a Secretaria de Educação de Pindamonhangaba:
-                            <li>Atendimento ao público</li>
-                            <li>Emissão e arquivamento de documentos</li>
-                            <li>Inserção, modificação e exclusão de dados dentro do sistema</li>
-                            <li>Suporte aos clientes quanto a utilização do sistema tecnológico</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h2 class="exp-title role">
-                            Digitadora
-                        </h2>
-
-                        <div class="skills">
-                            <p>Atendimento</p>
-                            <p>Suporte</p>
-                            <p>Manipulação de Dados</p>
+                    <div class="hero-pillar">
+                        <div class="pillar-icon"><i class="fa fa-comments"></i></div>
+                        <div class="pillar-text">
+                            <strong>Bridge Técnico-Negócio</strong>
+                            <span>Alinhamento entre áreas e times</span>
                         </div>
                     </div>
                 </div>
@@ -205,170 +97,336 @@
         </div>
     </section>
 
-    <section id="graduation">
-        <div class="graduation-content">
-            <div class="graduation-details">
-                <div>
-                    <img src="./img/formacao.svg" alt="Formação" class="graduation-image">
-                    <h1 class="graduation-title">
-                        For <br>
-                        ma <br>
-                        ção.
-                    </h1>
-                </div>
-                <div>
-                    <p class="graduation-text">
-                        Graduada em <strong>Análise e Desenvolvimento de Sistemas</strong>  pela Fatec Taubaté e cursando <strong>MBA em Gestão de Pessoas e Liderança</strong>, pela FGV. Além disso me mantenho sempre atualizada com cursos online e pequenas formações.
+    <!-- DIFERENCIAL -->
+    <section id="diferencial" class="section">
+        <div class="section-inner">
+            <div class="diferencial-grid">
+                <div class="diferencial-quote">
+                    <span class="quote-mark">"</span>
+                    <p class="quote-text">
+                        Bons produtos nascem da combinação entre <em>clareza estratégica</em>, organização de processos e maturidade técnica.
                     </p>
+                    <div class="stats-row">
+                        <div class="stat-block">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">anos em tecnologia<br>educacional</span>
+                        </div>
+                        <div class="stat-block">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">formações —<br>ADS + MBA FGV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="diferencial-pillars">
+                    <div class="section-eyebrow">O que eu entrego</div>
+                    <div class="diferencial-card">
+                        <div class="diferencial-card-icon"><i class="fa fa-map"></i></div>
+                        <h3>Direcionamento estratégico</h3>
+                        <p>Diagnóstico de produto, estruturação de backlog e definição funcional de iniciativas orientadas a impacto.</p>
+                    </div>
+                    <div class="diferencial-card">
+                        <div class="diferencial-card-icon"><i class="fa fa-shield-alt"></i></div>
+                        <h3>Sustentação e qualidade</h3>
+                        <p>Acompanhamento do ciclo de desenvolvimento com foco em estabilidade, disponibilidade e experiência do usuário.</p>
+                    </div>
+                    <div class="diferencial-card">
+                        <div class="diferencial-card-icon"><i class="fa fa-users"></i></div>
+                        <h3>Alinhamento entre áreas</h3>
+                        <p>Facilitação entre times técnicos e de negócio, apoiando decisões orientadas a contexto e geração de valor.</p>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="graduation-items">
-                <div class="graduation-item">
-                    <p class="yellow">MBA</p>
-                    <h2>Gestão: Pessoas e Liderança</h2>
-                    <p>Fundação Getúlio Vargas</p>
+    <!-- EXPERIÊNCIA -->
+    <section id="experience" class="section">
+        <div class="section-inner">
+            <div class="section-eyebrow">Trajetória</div>
+            <h2 class="section-title">Experiência <span class="accent">profissional</span></h2>
+            <p class="section-lead">Desde 2018 atuando com tecnologia. Da sustentação de sistemas à condução estratégica de produtos digitais.</p>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Schoolastic</div>
+                            <div class="timeline-role">Product Owner</div>
+                        </div>
+                        <span class="timeline-period active">Jan 2026 – Atual</span>
+                    </div>
+                    <p class="timeline-desc">Condução estratégica de demandas de produto, traduzindo objetivos de negócio em soluções digitais viáveis. Definição e priorização de backlog, estruturação de requisitos, validação de funcionalidades e facilitação entre áreas técnicas e de negócio.</p>
+                    <div class="timeline-tags">
+                        <span class="tag yellow">Product Strategy</span>
+                        <span class="tag yellow">Backlog Management</span>
+                        <span class="tag">Requisitos</span>
+                        <span class="tag">Agile</span>
+                        <span class="tag">EdTech</span>
+                    </div>
                 </div>
-                <div class="graduation-item">
-                    <p class="yellow">TECNÓLOGO</p>
-                    <h2>Análise e Desenvolvimento de Sistemas</h2>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot current"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Elynt — Tecnologia & Gestão</div>
+                            <div class="timeline-role">Consultora em Estratégia de Produto e Tecnologia</div>
+                        </div>
+                        <span class="timeline-period active">Dez 2025 – Atual</span>
+                    </div>
+                    <p class="timeline-desc">Apoio a empresas EdTech na organização estratégica de produtos digitais e processos. Diagnóstico, estruturação de requisitos, backlog e capacitação de equipes em análise de requisitos, metodologias ágeis e fundamentos de banco de dados.</p>
+                    <div class="timeline-tags">
+                        <span class="tag yellow">Consultoria</span>
+                        <span class="tag yellow">EdTech</span>
+                        <span class="tag">Treinamentos</span>
+                        <span class="tag">Transformação Digital</span>
+                        <span class="tag">Ágil</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Apus Soluções em TI</div>
+                            <div class="timeline-role">Diretora de Suporte Técnico e Sustentação</div>
+                        </div>
+                        <span class="timeline-period">Set 2023 – Set 2025</span>
+                    </div>
+                    <p class="timeline-desc">Garantia de qualidade de atendimento, criação de métricas e KPIs, política de suporte técnico, SLA, gestão de incidentes e supervisão técnica do ciclo de desenvolvimento incluindo testes e versionamento (Git/CI-CD).</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Liderança</span>
+                        <span class="tag">KPIs & SLA</span>
+                        <span class="tag">Git / CI-CD</span>
+                        <span class="tag">Gestão de Equipes</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Apus Soluções em TI</div>
+                            <div class="timeline-role">Gestora de Suporte</div>
+                        </div>
+                        <span class="timeline-period">Mai 2021 – Set 2023</span>
+                    </div>
+                    <p class="timeline-desc">Gestão de equipe, coordenação do atendimento ao cliente, manipulação de banco de dados SQL e desenvolvimento e manutenção com PHP, Javascript e ReactJS.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Gestão</span>
+                        <span class="tag">SQL</span>
+                        <span class="tag">ReactJS</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Javascript</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Apus Soluções em TI</div>
+                            <div class="timeline-role">Analista de Suporte</div>
+                        </div>
+                        <span class="timeline-period">Out 2019 – Abr 2021</span>
+                    </div>
+                    <p class="timeline-desc">Suporte e atendimento, manipulação de SQL, relatórios com PHP e desenvolvimento de features front-end junto à equipe de desenvolvimento.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Front-end</span>
+                        <span class="tag">Suporte</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-company">Zouphy</div>
+                            <div class="timeline-role">Consultoria em Gestão de Suporte & Implantação</div>
+                        </div>
+                        <span class="timeline-period">Jun 2022 – Mai 2025</span>
+                    </div>
+                    <p class="timeline-desc">Organização e priorização de backlog em contexto consultivo, levantamento de requisitos, treinamentos e validação técnica de atividades de implantação.</p>
+                    <div class="timeline-tags">
+                        <span class="tag">Backlog</span>
+                        <span class="tag">Requisitos</span>
+                        <span class="tag">Treinamentos</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="graduation" class="section">
+        <div class="section-inner">
+            <div class="section-eyebrow">Formação</div>
+            <h2 class="section-title">Educação & <span class="accent">Certificações</span></h2>
+            <p class="section-lead">Graduada em tecnologia, com MBA em gestão pela FGV e formação contínua em produto, liderança e agilidade.</p>
+
+            <div class="education-grid">
+                <div class="edu-card">
+                    <span class="badge yellow">MBA</span>
+                    <h3>Gestão: Pessoas e Liderança</h3>
+                    <p>Fundação Getúlio Vargas — FGV</p>
+                    <p style="margin-top:6px; font-size:0.8rem; color:var(--gray-mid);">2022 – 2024</p>
+                </div>
+                <div class="edu-card">
+                    <span class="badge">Tecnólogo</span>
+                    <h3>Análise e Desenvolvimento de Sistemas</h3>
                     <p>FATEC Taubaté</p>
+                    <p style="margin-top:6px; font-size:0.8rem; color:var(--gray-mid);">2017 – 2020</p>
                 </div>
-                <div class="graduation-item">
-                    <p class="yellow">CURSO LIVRE</p>
-                    <h2>Formação em Hardware</h2>
-                    <p>Senac</p>
+                <div class="edu-card">
+                    <span class="badge">Formação</span>
+                    <h3>Product Design</h3>
+                    <p>Alura</p>
+                </div>
+            </div>
+
+            <div class="section-eyebrow" style="margin-bottom:16px;">Certificações</div>
+            <div class="certs-row">
+                <span class="cert-pill"><i class="fa fa-check-circle"></i> Gerenciamento Ágil de Projetos</span>
+                <span class="cert-pill"><i class="fa fa-check-circle"></i> Product Design</span>
+                <span class="cert-pill"><i class="fa fa-check-circle"></i> Liderança Officeless</span>
+                <span class="cert-pill"><i class="fa fa-check-circle"></i> Formação em Hardware</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- IDIOMAS -->
+    <section id="languages" class="section">
+        <div class="section-inner">
+            <div class="section-eyebrow">Idiomas</div>
+            <h2 class="section-title" style="color:var(--white); margin-bottom:40px;">Comunicação <span style="color:var(--yellow); font-style:italic;">global</span></h2>
+            <div class="lang-grid">
+                <div class="lang-card">
+                    <span class="lang-flag">🇧🇷</span>
+                    <div class="lang-name">Português</div>
+                    <div class="lang-level">Nativo / Fluente</div>
+                    <div class="lang-bar-track"><div class="lang-bar-fill" style="width:100%"></div></div>
+                </div>
+                <div class="lang-card">
+                    <span class="lang-flag">🇺🇸</span>
+                    <div class="lang-name">Inglês</div>
+                    <div class="lang-level">Professional Working</div>
+                    <div class="lang-bar-track"><div class="lang-bar-fill" style="width:65%"></div></div>
+                </div>
+                <div class="lang-card">
+                    <span class="lang-flag">🇪🇸</span>
+                    <div class="lang-name">Espanhol</div>
+                    <div class="lang-level">Iniciante</div>
+                    <div class="lang-bar-track"><div class="lang-bar-fill" style="width:25%"></div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="languages">
-        <div class="languages-content">
-            <div class="languages-details">
-                <div>
-                    <img src="./img/idiomas.svg" alt="Idiomas" class="languages-image">
-                    <h1 class="languages-title">
-                        Idio <br>
-                        mas.
-                    </h1>
-                </div>
-                <div class="languages-items">
-                    <div class="language-item">
-                        <p>
-                            Português
-                            <span class="yellow"> / Fluente</span>
-                        </p>
-                    </div>
-                    
-                    <div class="language-item">
-                        <p>
-                            Inglês
-                            <span class="yellow"> / Intermediário</span>
-                        </p>
-                    </div>
+    <!-- PORTFÓLIO -->
+    <section id="portfolio" class="section">
+        <div class="section-inner">
+            <div class="section-eyebrow">Portfólio</div>
+            <h2 class="section-title">Projetos <span class="accent">desenvolvidos</span></h2>
+            <p class="section-lead portfolio-lead-text">Websites criados de forma autônoma, em freelances e projetos pessoais.</p>
 
-                    <div class="language-item">
-                        <p>
-                        Espanhol
-                            <span class="yellow"> / Iniciante
-                            </span>
-                        </p>
+            <div class="portfolio-grid">
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/elynt.png" alt="Elynt" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Website</div>
+                        <div class="portfolio-name">Elynt</div>
+                        <a href="https://www.elynt.com.br/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/meu-controle.png" alt="Meu Controle" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Saas</div>
+                        <div class="portfolio-name">Meu Controle</div>
+                        <a href="https://clock-dance-studio.lovable.app/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/agni.png" alt="Agni Projetos" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Website</div>
+                        <div class="portfolio-name">Agni Projetos</div>
+                        <a href="https://www.agniprojetos.com.br/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/thiago-ar.png" alt="Thiago Ar Condicionado" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Website</div>
+                        <div class="portfolio-name">Thiago Ar Condicionado</div>
+                        <a href="https://www.thiagoar.com.br/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/build-smart.png" alt="Build Smart Construction" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Website</div>
+                        <div class="portfolio-name">Build Smart Construction</div>
+                        <a href="https://buildsmartconstruction.ca/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="img/portfolio/nathalia.png" alt="Nathalia Batista" class="portfolio-thumb">
+                    <div class="portfolio-body">
+                        <div class="portfolio-type">Website</div>
+                        <div class="portfolio-name">Nathalia Batista</div>
+                        <a href="https://nathaliabatista.com/" target="_blank" rel="noopener" class="portfolio-link">Ver projeto <i class="fa fa-arrow-right" style="font-size:11px"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio">
-        <div class="portfolio-content">
-            <div class="portfolio-details">
-                <div>
-                    <img src="./img/portfolio.svg" alt="Formação" class="portfolio-image">
-                    <h1 class="portfolio-title">
-                        Port <br>
-                        fo <br>
-                        lio.
-                    </h1>
-                </div>
-                <div>
-                    <p class="portfolio-text">
-                        Websites desenvolvidos de maneira autônoma, seja para clientes em <strong>freelances</strong>  quanto para <strong>projetos pessoais</strong>, de estudos e/ou aprimoramentos.
-                    </p>
-                </div>
-            </div>
-
-            <div class="portfolio-items">
-                <div class="portfolio-item bd">
-                    <p class="yellow">Website</p>
-                    <h2>
-                        <a href="https://bbethdantas.com/" target="_blank" rel="noopener noreferrer">Beth Dantas</a>
-                        </h2>
-                </div>
-                <div class="portfolio-item nb">
-                    <p class="yellow">Website</p>
-                    <h2>
-                        <a href="https://nathaliabatista.com/" target="_blank" rel="noopener noreferrer">Nathalia Batista</a>
-                        </h2>
-                </div>                
-                <div class="portfolio-item am">
-                    <p class="yellow">Website</p>
-                    <h2>Anju Mace</h2>
-                </div> 
-                <div class="portfolio-item jg">
-                    <p class="yellow">Website</p>
-                    <h2>JG Digital Marketing</h2>
-                </div>               
-                <div class="portfolio-item sfc">
-                    <p class="yellow">Website</p>
-                    <h2>
-                        <a href="https://www.shinefairiescleaners.com/" target="_blank" rel="noopener noreferrer">Shine Fairie Cleaners</a>
-                        </h2>
-                </div>
-                <div class="portfolio-item bs">
-                    <p class="yellow">Website</p>
-                    <h2><a href="https://buildsmartconstruction.ca/" target="_blank">Build Smart Construction</a></h2>
-                </div>                
-                <div class="portfolio-item ni">
-                    <p class="yellow">Website</p>
-                    <h2>NewIn</h2>
-                </div>
-                <div class="portfolio-item wc">
-                    <p class="yellow">Website</p>
-                    <h2>
-                        <a href="https://wivaconstruction.com/" target="_blank" rel="noopener noreferrer">Wiva Construction</a>
-                        </h2>
-                </div>
-                <div class="portfolio-item hs">
-                    <p class="yellow">Website</p>
-                    <h2>
-                        <a href="https://www.habitatsolutions.ca/" target="_blank" rel="noopener noreferrer">Habitat Solutions</a>
-                        </h2>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!-- FOOTER -->
     <footer id="footer">
-        <div class="footer-content">
-            <div class="footer-details">
-                <div class="footer-logo">
-                    <img src="img/logo-v.svg" alt="">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-col footer-col--logo">
+                    <img src="img/rafaela-vector.svg" alt="Rafaela Duque vector" class="footer-image">
                 </div>
-                <div class="footer-social">
-                    <a href="https://www.instagram.com/rafad.dev/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/rafaela-duque/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-                    <a href="https://www.github.com/Rafadcosta/" target="_blank"><i class="fab fa-github fa-2x"></i></i>
-                    <a href="https://www.behance.net/rafaelacosta2" target="_blank"><i class="fab fa-behance fa-2x"></i></i></a>
+                <div class="footer-col footer-col--info">
+                    <div class="footer-brand">Rafaela<span>.</span></div>
+                    <div class="footer-tagline">Product Owner · Estratégia de Produto · EdTech</div>
+                    <div class="footer-tagline">Taubaté, São Paulo — Brasil</div>
+                </div>
+                <div class="footer-col footer-col--social">
+                    <div class="footer-tagline footer-tagline--heading">Onde me encontrar</div>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/rafaela-duque/" target="_blank" title="LinkedIn"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a href="https://www.instagram.com/rafad.dev/" target="_blank" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="https://www.github.com/Rafadcosta/" target="_blank" title="GitHub"><i class="fab fa-github fa-lg"></i></a>
+                        <a href="https://www.behance.net/rafaelacosta2" target="_blank" title="Behance"><i class="fab fa-behance fa-lg"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="footer-credits">
-                © 2020 - 2023 Todos os direitos reservados. </br> </br> Versão 0.3
+            <div class="footer-bottom">
+                <span class="footer-credits">© <span id="current-year"></span> Rafaela Duque. Todos os direitos reservados.</span>
+                <span class="footer-version">v4.0</span>
             </div>
         </div>
     </footer>
 
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Voltar ao topo">
+        <img src="./img/seta-acima.svg" alt="Voltar ao topo">
+    </button>
+
     <script src="./js/function.js"></script>
-    <script src="./js/scroll.js"></script>
 </body>
 </html>
