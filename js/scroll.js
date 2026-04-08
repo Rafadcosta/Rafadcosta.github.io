@@ -23,7 +23,7 @@ function scrollToPosition(to){
 }
 
 // Para compilar também em browsers antigos
-function smoothScrollTo(endX, endY, duration) {
+function smoothScrollTo(endX, endY, duration, callback) {
 	const startX = window.scrollX || window.pageXOffset;
 	const startY = window.scrollY || window.pageYOffset;
 	const distanceX = endX - startX;
@@ -44,6 +44,7 @@ function smoothScrollTo(endX, endY, duration) {
 	  const newY = easeInOutQuart(time, startY, distanceY, duration);
 	  if (time >= duration) {
 		clearInterval(timer);
+		if (typeof callback === 'function') callback();
 	  }
 	  window.scroll(newX, newY);
 	}, 1000 / 60); // 60 fps
