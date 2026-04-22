@@ -37,3 +37,64 @@ scrollToTopBtn.addEventListener('click', () => {
     behavior: 'smooth'
     });
 });
+
+/* ── DARK MODE TOGGLE ── */
+document.addEventListener('DOMContentLoaded', function() {
+    const themeToggle = document.getElementById('theme-toggle');
+    const htmlElement = document.documentElement;
+    
+    // Verificar preferência salva ou preferência do sistema
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    if (savedTheme === 'dark' || (savedTheme === null && prefersDark)) {
+        htmlElement.classList.add('dark-mode');
+        updateToggleIcon(true);
+    }
+    
+    // Event listener para o botão de toggle
+    themeToggle.addEventListener('click', function() {
+        htmlElement.classList.toggle('dark-mode');
+        const isDarkMode = htmlElement.classList.contains('dark-mode');
+        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+        updateToggleIcon(isDarkMode);
+    });
+    
+    function updateToggleIcon(isDark) {
+        const icon = themeToggle.querySelector('i');
+        if (isDark) {
+            icon.classList.remove('fa-moon');
+            icon.classList.add('fa-sun');
+        } else {
+            icon.classList.remove('fa-sun');
+            icon.classList.add('fa-moon');
+        }
+    }
+});
+
+/* ── SMOOTH SCROLL SEM ATUALIZAR URL ── */
+document.addEventListener('DOMContentLoaded', function() {
+    // Seleciona todos os links internos com href começando com #
+    const internalLinks = document.querySelectorAll('a[href^="#"]');
+    
+    internalLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            
+            // Ignora links vazios ou apenas #
+            if (href === '#' || href === '') return;
+            
+            const targetElement = document.querySelector(href);
+            
+            if (targetElement) {
+                e.preventDefault();
+                
+                // Scroll suave sem mudar a URL
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+});
